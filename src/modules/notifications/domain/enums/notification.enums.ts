@@ -1,0 +1,11 @@
+export enum NotificationType {
+  EXPIRY_WARNING_30D = 'EXPIRY_WARNING_30D',
+  EXPIRY_WARNING_7D = 'EXPIRY_WARNING_7D',
+  EXPIRY_WARNING_1D = 'EXPIRY_WARNING_1D',
+  EXPIRY_TODAY = 'EXPIRY_TODAY',
+}
+
+export enum NotificationStatus {
+  UNREAD = 'UNREAD',
+  READ = 'READ',
+}
